@@ -1,0 +1,116 @@
+{
+    "Groups": [],
+    "Instances": [
+        {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-098e39bafa7e7303d",
+            "InstanceId": "i-06847c42fece4fcbd",
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2026-04-18T22:47:43+00:00",
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "Placement": {
+                "AvailabilityZone": "us-east-1c",
+                "GroupName": "",
+                "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-31-150.ec2.internal",
+            "PrivateIpAddress": "172.31.31.150",
+            "ProductCodes": [],
+            "PublicDnsName": "",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-04f327d2104f9f7d7",
+            "VpcId": "vpc-0322231344b8f059f",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "e5ab8b2e-6369-4bea-84d6-e46bde7753a5",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "IamInstanceProfile": {
+                "Arn": "arn:aws:iam::505331880455:instance-profile/LabInstanceProfile",
+                "Id": "AIPAXLKBASIDTRNGROOII"
+            },
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2026-04-18T22:47:43+00:00",
+                        "AttachmentId": "eni-attach-00415c5530b07bc18",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupName": "default",
+                            "GroupId": "sg-0eccf9dc6ca750299"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "0a:ff:da:aa:2a:87",
+                    "NetworkInterfaceId": "eni-0f37c6cd996c1e674",
+                    "OwnerId": "505331880455",
+                    "PrivateDnsName": "ip-172-31-31-150.ec2.internal",
+                    "PrivateIpAddress": "172.31.31.150",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-31-150.ec2.internal",
+                            "PrivateIpAddress": "172.31.31.150"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-04f327d2104f9f7d7",
+                    "VpcId": "vpc-0322231344b8f059f",
+                    "InterfaceType": "interface"
+                }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupName": "default",
+                    "GroupId": "sg-0eccf9dc6ca750299"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "mi-instancia-devops"
+                }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "required",
+                "HttpPutResponseHopLimit": 2,
+                "HttpEndpoint": "enabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            }
+        }
+    ],
+    "OwnerId": "505331880455",
+    "ReservationId": "r-000b802e223de3185"
+}
